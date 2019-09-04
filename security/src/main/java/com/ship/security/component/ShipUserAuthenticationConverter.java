@@ -1,16 +1,17 @@
 package com.ship.security.component;
 
 import com.ship.security.constant.SecurityConstants;
-import com.ship.security.service.BaseUser;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
 import org.springframework.security.core.Authentication;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.AuthorityUtils;
+import org.springframework.security.core.userdetails.User;
 import org.springframework.security.oauth2.provider.token.UserAuthenticationConverter;
 import org.springframework.util.StringUtils;
 
 import java.util.Collection;
 import java.util.LinkedHashMap;
+import java.util.List;
 import java.util.Map;
 
 /**
@@ -44,17 +45,16 @@ public class ShipUserAuthenticationConverter implements UserAuthenticationConver
     @Override
     public Authentication extractAuthentication(Map<String, ?> map) {
         if (map.containsKey(USERNAME)) {
-            Collection<? extends GrantedAuthority> authorities = getAuthorities(map);
+            List<GrantedAuthority> authorities = getAuthorities(map);
 
             String username = (String) map.get(SecurityConstants.DETAILS_USERNAME);
-            BaseUser user = new BaseUser(username, N_A, true
-                    , true, true, true, authorities);
+            User user = new User(username, N_A, authorities);
             return new UsernamePasswordAuthenticationToken(user, N_A, authorities);
         }
         return null;
     }
 
-    private Collection<? extends GrantedAuthority> getAuthorities(Map<String, ?> map) {
+    private List<GrantedAuthority> getAuthorities(Map<String, ?> map) {
         Object authorities = map.get(AUTHORITIES);
         if (authorities instanceof String) {
             return AuthorityUtils.commaSeparatedStringToAuthorityList((String) authorities);

@@ -9,9 +9,6 @@ import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.stereotype.Service;
 
-@Slf4j
-@Service
-@AllArgsConstructor
 public abstract class AbstractUserDetailsServiceImpl implements UserDetailsService {
 
     /**
