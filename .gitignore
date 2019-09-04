@@ -1,0 +1,29 @@
+*/target/
+logs/
+
+### Maven dir ###
+.mvn
+mvnw
+mvnw.cmd
+
+### Compiled dir ###
+.project
+.myeclipse
+.settings
+.classpath
+.metadata
+*.iml
+application.log
+
+
+### Mac OS ###
+.DS_Store
+*.DS_Store
+
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.ipr
+
+### log dir ###
