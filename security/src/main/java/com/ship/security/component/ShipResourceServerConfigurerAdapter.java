@@ -28,7 +28,7 @@ public class ShipResourceServerConfigurerAdapter extends ResourceServerConfigure
     @Autowired
     private FilterIgnorePropertiesConfig ignorePropertiesConfig;
     @Autowired
-    private AccessDeniedHandler pigAccessDeniedHandler;
+    private AccessDeniedHandler accessDeniedHandler;
     @Autowired
     private RestTemplate lbRestTemplate;
 
@@ -60,7 +60,7 @@ public class ShipResourceServerConfigurerAdapter extends ResourceServerConfigure
         remoteTokenServices.setRestTemplate(lbRestTemplate);
         remoteTokenServices.setAccessTokenConverter(accessTokenConverter);
         resources.authenticationEntryPoint(resourceAuthExceptionEntryPoint)
-                .accessDeniedHandler(pigAccessDeniedHandler)
+                .accessDeniedHandler(accessDeniedHandler)
                 .tokenServices(remoteTokenServices);
     }
 }

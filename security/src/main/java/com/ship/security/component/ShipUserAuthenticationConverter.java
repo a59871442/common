@@ -9,10 +9,7 @@ import org.springframework.security.core.userdetails.User;
 import org.springframework.security.oauth2.provider.token.UserAuthenticationConverter;
 import org.springframework.util.StringUtils;
 
-import java.util.Collection;
-import java.util.LinkedHashMap;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 
 /**
  * 根据checktoken 的结果转化用户信息
@@ -63,6 +60,10 @@ public class ShipUserAuthenticationConverter implements UserAuthenticationConver
             return AuthorityUtils.commaSeparatedStringToAuthorityList(StringUtils
                     .collectionToCommaDelimitedString((Collection<?>) authorities));
         }
+        if (authorities == null){
+            return AuthorityUtils.commaSeparatedStringToAuthorityList("");
+        }
+
         throw new IllegalArgumentException("Authorities must be either a String or a Collection");
     }
 }
