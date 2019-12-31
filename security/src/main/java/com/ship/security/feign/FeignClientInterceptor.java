@@ -36,8 +36,6 @@ public class FeignClientInterceptor extends OAuth2FeignRequestInterceptor {
      * Create a template with the header of provided name and extracted extract
      * 1. 如果使用 非web 请求，header 区别
      * 2. 根据authentication 还原请求token
-     *
-     * @param template
      */
     @Override
     public void apply(RequestTemplate template) {
