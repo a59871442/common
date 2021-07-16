@@ -1,1 +1,49 @@
-<mxfile host="app.diagrams.net" modified="2021-07-16T06:18:14.724Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="bZFF5PG__ppEb29Jzq9y" version="14.8.6" type="github"><diagram id="ViPAiQgvcvNQSvlT-4JW" name="Page-1">5Vjfb5swEP5r/NiJ38GPEMiqqZUqdVK3p8kNbvBmcOY4DdlfvzM4IYQkTaW0VNsL8n0+A77vuzsDcsdF9VmSeX4rMsqRY2UVchPkONgL4KqBdQMEttcAM8myBrJb4J79oQa0DLpkGV10HJUQXLF5F5yKsqRT1cGIlGLVdXsSvPvUOZnRHnA/JbyPPrBM5Q0aOqMWv6Zslm+ebAe4mSnIxtnsZJGTTKx2IDdF7lgKoZpRUY0p17HbxKVZNzkyu30xSUt1zoIvv1k2SfjV/KG6vf6aVLc/4smV2cZCrTcbphns35hCqlzMREl42qKxFMsyo/quFlitz40QcwBtAH9SpdaGTLJUAqBcFdzM0oqpb3r5J99Y33dmksrcuTbWxmjeU7/c0e0baCGWckpP7HkjIyJnVJ3w87ckgbipKKiSa1gnKSeKPXffgxiZzbZ+LRMwMGS8ghhz32fCl+ZJKPVQHKIwRqmPwgRhv8ddl5lVzhS9n5M6GCvIzi4L5gFUKlqdjmk/BmaB4xttm+R2QmOv2lSxN/rPd9IksN4obO7H0XNrHVa0Nu6oZLBxKi+vcudMlR9h+H1U7vRUHk2VkD0SoXbO9XBZ8MbBjbVwGdTpG/JI+Z1YMMVECS6PQilR7DhEnM30hBJ7CSCWirOSjredw7pMVtjey1nhvmdShP1aMkCWXFDb/pnaDgat4NZ/EmU8ZJT9o33S0n0ySlFkoxRrE0coDVE8QWH/1DN05/S8oTunPUjrvKBcg3MbnjOkXoMDeg1rmdaDEAQKeh1p1QJoprwPp1ffH52nV99/o0Dil5vaewfJtz5cUh/6jBgh7NUqg2uEQlBZgMIJwnXBDLH+ttADGwrmdXyj/eMYYWwWRmHtDzodnaFTCKbqxnmhpPgFhy6uT3FJKUpdR54Y53sQMce2KQSfygPnuYJlWV2EDhHbpf4C3Lp4j1vc53b0ZjT2z8mDi32/IgTB4GL3Dog9QJGFYlxrNqml6uv+D8LffkXDFA5qHx/FY50KB3xA4BOdE/+swEHRHT7dU9/yr+AOzPYfVz2386PQTf8C</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-07-16T06:30:07.976Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="uOjNMkKacMhMDlbwXFtk" version="14.8.6" type="github">
+  <diagram id="ViPAiQgvcvNQSvlT-4JW" name="Page-1">
+    <mxGraphModel dx="946" dy="614" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="JqidFDl-pWxMHTDxM_BF-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="JqidFDl-pWxMHTDxM_BF-1" target="JqidFDl-pWxMHTDxM_BF-5" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JqidFDl-pWxMHTDxM_BF-1" value="下单" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="250" y="280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JqidFDl-pWxMHTDxM_BF-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="JqidFDl-pWxMHTDxM_BF-2" target="JqidFDl-pWxMHTDxM_BF-1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JqidFDl-pWxMHTDxM_BF-2" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
+          <mxGeometry x="140" y="280" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JqidFDl-pWxMHTDxM_BF-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="JqidFDl-pWxMHTDxM_BF-5" target="JqidFDl-pWxMHTDxM_BF-6" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JqidFDl-pWxMHTDxM_BF-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="JqidFDl-pWxMHTDxM_BF-5" target="JqidFDl-pWxMHTDxM_BF-9" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JqidFDl-pWxMHTDxM_BF-5" value="一审通过" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="250" y="440" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JqidFDl-pWxMHTDxM_BF-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="JqidFDl-pWxMHTDxM_BF-6" target="JqidFDl-pWxMHTDxM_BF-12" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JqidFDl-pWxMHTDxM_BF-6" value="订舱确认" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="250" y="557" width="120" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="JqidFDl-pWxMHTDxM_BF-9" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="500" y="440" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JqidFDl-pWxMHTDxM_BF-11" value="由于提前做HBL给用户确认" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="390" y="490" width="70" as="geometry" />
+        </mxCell>
+        <mxCell id="JqidFDl-pWxMHTDxM_BF-12" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="250" y="660" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JqidFDl-pWxMHTDxM_BF-14" value="根据出单方式出单证" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="249" y="380" width="120" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
